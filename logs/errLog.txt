@@ -1,0 +1,9 @@
+20230306	16:39:40	10a66e35-9aea-4b60-87e0-a6aa346044b8	Error : Not allowed by Cors
+20230306	18:10:00	07985e84-80cc-4478-969f-cd59c17f899a	SyntaxError : Unexpected token } in JSON at position 118
+20230307	22:56:25	f49cdd4e-303a-41fc-8a04-8c26b920b507	TypeError : whitelist.indexOf is not a function
+20230307	22:57:49	a889d029-512d-4c4a-8765-dafde76d791a	TypeError : whitelist.indexOf is not a function
+20230307	23:20:01	83884bdb-e9eb-493f-a64a-da6bf6d81af4	TypeError : roles is not iterable
+20230307	23:21:38	f6cae868-4cd0-49ac-8b4c-48d40b5f30a1	TypeError : ROLES.indexOf is not a function
+20230307	23:23:25	02485165-1165-47b7-9550-c4554d7b8fea	TypeError : ROLES is not iterable
+20230308	22:48:34	e94eb7a6-f189-4213-a097-4a40b1832199	ReferenceError : redisClient is not defined
+20230308	23:02:23	f18b21a6-6c3a-449d-8888-25259defe85d	MongooseError : Model.findOne() no longer accepts a callback

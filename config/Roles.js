@@ -1,0 +1,8 @@
+const ROLES = {
+    "ADMIN": "ADMIN",
+    "STORE_MANAGER":"STORE_MANAGER",
+    "STORE_EMPLOYEE": "STORE_EMPLOYEE",
+    "BANK_AGENT":"BANK_AGENT",
+}
+
+module.exports = ROLES
