@@ -8,6 +8,9 @@ const userSchema = new Schema(
       unique: true,
       trim: true,
     },
+    avatar:{
+      type: String,
+    },
     firstname: {
       type: String,
       required: true,

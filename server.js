@@ -40,7 +40,7 @@ app.use("/auth", require("./routes/auth"));
 app.use("/register", require("./routes/register"));
 app.use("/logout", require("./routes/logout"));
 app.use("/refresh", require("./routes/refresh"));
-
+app.use(express.static('uploads'))
 // apply verfiy jwt middleware
 app.use(verifyJWT);
 // app.use(verifyTokenIsNotInBlacklist);

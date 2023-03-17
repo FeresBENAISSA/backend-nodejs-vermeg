@@ -9,4 +9,5 @@ router
   .get(verifyRoles(ROLES.ADMIN),usersController.getAllUsers)
 
 router.get("/:username",usersController.getUser)
+router.post("/upload",usersController.uploadUserImage)
 module.exports = router;
